@@ -1,7 +1,7 @@
 import { Injectable, OnApplicationBootstrap, Logger } from '@nestjs/common';
 import { DataSource } from 'typeorm';
 import * as fs from 'fs';
-import * as path from 'fs';
+import * as path from 'path';
 
 @Injectable()
 export class SeedService implements OnApplicationBootstrap {
